@@ -18,7 +18,6 @@ class Dog
   def self.new(name)
     @name = name
      @@all << @name
-    end
   end
     
   def name
