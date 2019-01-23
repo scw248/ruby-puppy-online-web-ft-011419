@@ -20,8 +20,8 @@ class Dog
      @@all << @name
   end
     
-  # def name
-  #   puts @name
-  # end
+  def name
+    @name
+  end
   
 end
