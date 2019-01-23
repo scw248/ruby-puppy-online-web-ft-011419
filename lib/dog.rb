@@ -15,9 +15,9 @@ class Dog
     @@all.each { |dog| puts dog }
   end
   
-  def self.new(dog)
-      @dog = dog
-     @@all << @dog
+  def self.new(name)
+      @name = name
+     @@all << @name
   end
     
   def name
