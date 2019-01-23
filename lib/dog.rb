@@ -16,7 +16,8 @@ class Dog
   end
   
   def self.new(dog)
-     @@all << dog
+      @dog = dog
+     @@all << @dog
   end
     
   def name
