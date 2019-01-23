@@ -17,7 +17,6 @@ class Dog
   
   def self.new(name)
     @name = name
-    if @@all.each { |dog| dog != name }
      @@all << @name
     end
   end
