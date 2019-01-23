@@ -14,12 +14,6 @@ class Dog
   def self.all
     @@all.each { |dog| puts dog }
   end
-  
-  def self.new(name)
-      @name = name
-     @@all << @name
-     @@all.flatten.uniq
-  end
     
   def name
     @name
